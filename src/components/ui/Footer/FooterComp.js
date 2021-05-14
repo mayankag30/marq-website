@@ -5,6 +5,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Footer from "./Footer";
 import style from "./footerStyle2";
+import logowhite from "../Header/logo-transparent-white.png"
 
 const useStyles = makeStyles(style);
 
@@ -23,7 +24,7 @@ export default function SectionFooter() {
                   style={{ fontSize: "1.3rem" }}
                   className={classes.footerBrand}
                 >
-                  MARQUEDO
+                  <img src={logowhite} alt="Companylogo" width="250px" height="50px" />
                 </NavLink>
               </div>
               <div className={classes.pullCenter}>
